@@ -1,0 +1,49 @@
+
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+/** ====================
+  end Share code css
+/*======================*/
+#code{
+  font-family: "Source Code Pro",sans-serif;
+  min-height: 400px;
+  width: 100%;
+  border:none;
+  outline:0;  /*pour effacer les bordure interne*/
+  background-color: #000;
+  color:#c5c5c5 ;
+  resize: none; /*pour empecher de redimensionner le text-area*/
+  font-size: 14px;
+  overflow: hidden;
+
+}
+#main-content-share-code{
+  background-color:  #000;
+  padding-top: 1em;
+  padding-left: 8px;
+  position: relative;
+}
+
+.nav-code{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+/** ====================
+  end Share code css
+/*======================*/
+
+/** ====================
+  begin list_users code css
+/*======================*/
+
+.users{
+  margin-bottom: 3em;
+
+}
+/*style pour user, chaque utilisateur*/
+.user-block{
+  text-align: center;
+}
+.user-block .avatar{
+  margin: auto;
+}
